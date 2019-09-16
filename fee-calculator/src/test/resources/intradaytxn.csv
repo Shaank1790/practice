@@ -1,0 +1,3 @@
+External Transaction Id,Client Id,Security Id,Transaction Type,Transaction Date,Market Value,Priority Flag
+SAPEXTXN1,GS,ICICI,BUY,11/23/2013,101.9,Y
+SAPEXTXN1,GS,ICICI,SELL,11/23/2013,101.9,Y
