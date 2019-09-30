@@ -35,6 +35,8 @@ public class FeeCalculatorApplication implements CommandLineRunner {
 		List<TransactionAttributes> updatedTransactions = transactionProcessor.processTransactions(attributesList);
 		
 		System.out.println("------------- UPDATED TRANSACTIONS -------------");
+		System.out.println("------------- The new change -------------");
+		System.out.println("------------- The is new branch bugFix -------------");
 
 		updatedTransactions.forEach(System.out::println);
 		transactionProcessor.generateReport(updatedTransactions);
